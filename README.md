@@ -1,8 +1,8 @@
-# Frontend Mentor – NFT Preview Card
+# Frontend Mentor – Blog Preview
 
 ## 🚀 Project Overview
 
-creating the NFT Preview Card component. Design maching original Frontend Mentor NFT Preview Card.
+creating the Blog Preview Card component. Design maching original Frontend Mentor Blog Preview Card.
 This version is implemented using React, with clean component structure and simple styling.
 
 ## ⚙️ Built With
@@ -30,7 +30,7 @@ App.jsx
 ## 🚀 URL/Live page:
 
 - Deployed on Vercel.
-- Link:
+- Link: https://blog-preview-react-blush.vercel.app/
 
 ---
 
