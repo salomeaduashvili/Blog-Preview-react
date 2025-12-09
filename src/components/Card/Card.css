@@ -1,0 +1,110 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 32.7rem;
+  height: 50.1rem;
+  padding: 2.4rem;
+  gap: 2.4rem;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0 0 #000;
+  border: solid 1px #111;
+  background-color: #fff;
+}
+
+.main-img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+span {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #111;
+  width: 7.3rem;
+  height: 2.6rem;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background-color: #f4d04e;
+}
+
+.published {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #111;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #111;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.describtion {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #6b6b6b;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.profile img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.profile-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #111;
+}
+
+h2:hover {
+  color: #f4d04e;
+}
+
+h2:active {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 48rem) {
+  main {
+    width: 38.4rem;
+    height: 52.2rem;
+  }
+
+  span {
+    font-size: 1.4rem;
+    width: 8.2rem;
+    height: 2.9rem;
+  }
+
+  .published {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .describtion {
+    font-size: 1.6rem;
+  }
+}
